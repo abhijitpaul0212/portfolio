@@ -1,0 +1,210 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #ff000d;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#scrollTopBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+header {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('./img/laptop_in_dark_large.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 99vh;
+    width: 100%;
+}
+nav {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav a:after {
+    display: block;
+    content: '';
+    border-bottom: solid 3px #fff;
+    transform: scaleX(0);
+    transition: transform 350ms ease-in-out;
+}
+nav a:hover:after {
+    transform: scaleX(1);
+}
+.logo {
+    font-size: 40px;
+    color: #ff000d;
+    font-weight: 700;
+}
+.banner {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+.banner span {
+    font-size: 50px;
+    display: inline-block;
+}
+span.changing-title:after {
+    content: '';
+    animation: changetext 20s infinite linear;
+}
+@keyframes changetext {
+    0% {
+        content: 'Front-end Developer';
+        opacity: 1;
+    }
+    10% {
+        content: 'Front-end Developer';
+        opacity: 0.5;
+    }
+    20% {
+        content: 'Front-end Developer';
+        opacity: 0;
+    }
+    30% {
+        content: 'Aspiring Full Stack Developer';
+        opacity: 0;
+    }
+    40% {
+        content: 'Aspiring Full Stack Developer';
+        opacity: 0.5;
+    }
+    50% {
+        content: 'Aspiring Full Stack Developer';
+        opacity: 1;
+    }
+    60% {
+        content: 'Aspiring Full Stack Developer';
+        opacity: 0.5;
+    }
+    70% {
+        content: 'Aspiring Full Stack Developer';
+        opacity: 0;
+    }
+    80% {
+        content: 'Front-end Developer';
+        opacity: 0;
+    }
+    90% {
+        content: 'Front-end Developer';
+        opacity: 0.5;
+    }
+    100% {
+        content: 'Front-end Developer';
+        opacity: 1;
+    }
+}
+section#about {
+    width: 80%;
+    margin: auto;
+    height: 90vh;
+    padding-top: 10px;
+}
+section#about .detail {
+    height: 45vh;
+}
+section#about .skills {
+    height: 45vh;
+}
+.skill-btn {
+    color: white;
+    padding: 10px 40px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    background: transparent;
+    transition: 0.4s ease-in-out;
+    margin: 30px 10px;
+}
+.skill-btn:hover {
+    background: white;
+    cursor: pointer;
+    color: #000;
+}
+.skill-group {
+    max-width: 600px;
+    margin: auto;
+}
+p.heading {
+    font-size: 40px;
+    color: #ff000d;
+    font-weight: 700;
+}
+section#contact{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    padding-top: 40px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+.wrapper > div{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 30px;
+}
+.social-links {
+    display: flex;
+    justify-content: space-around;
+}
+.social-links a{
+    color: #fff;
+    transition: 1s;
+}
+.social-links a:hover{
+    color: #ff000d;
+}
+.wrapper > div > i{
+    margin-right: 20px;
+    color: #ff000d;
+    border-radius: 50%;
+    padding: 14px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.wrapper .text p {
+    font-size: 18px;
+}
