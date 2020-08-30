@@ -27,11 +27,11 @@ body {
 }
 
 header {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('./img/laptop_in_dark_large.jpg');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('./img/laptop_in_dark_medium.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 99vh;
+    height: 100vh;
     width: 100%;
 }
 nav {
@@ -131,14 +131,18 @@ span.changing-title:after {
 section#about {
     width: 80%;
     margin: auto;
-    height: 90vh;
+    height: 100vh;
     padding-top: 10px;
 }
 section#about .detail {
-    height: 45vh;
+    height: 49vh;
 }
 section#about .skills {
-    height: 45vh;
+    height: 49vh;
+}
+section#about .detail p.text {
+    font-size: 18px;
+    line-height: 1.5;
 }
 .skill-btn {
     color: white;
@@ -166,7 +170,7 @@ p.heading {
     color: #ff000d;
     font-weight: 700;
 }
-section#contact{
+section#contact {
     width: 80%;
     margin: auto;
     height: 100vh;
@@ -174,14 +178,14 @@ section#contact{
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 60%;
     margin: auto;
 }
-.wrapper > div{
+.wrapper > div {
     display: flex;
     align-items: center;
     background: rgba(255, 255, 255, 0.08);
@@ -191,14 +195,14 @@ section#contact{
     display: flex;
     justify-content: space-around;
 }
-.social-links a{
+.social-links a {
     color: #fff;
     transition: 1s;
 }
-.social-links a:hover{
+.social-links a:hover {
     color: #ff000d;
 }
-.wrapper > div > i{
+.wrapper > div > i {
     margin-right: 20px;
     color: #ff000d;
     border-radius: 50%;
@@ -207,4 +211,36 @@ section#contact{
 }
 .wrapper .text p {
     font-size: 18px;
+}
+section#work {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    padding-top: 10px;
+}
+.project-container {
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    padding-top: 20px;
+}
+.project-container img {
+    width: 100%;
+    height: auto;
+}
+.project-container .card {
+    position: relative;
+}
+.project-container .card .details {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.project-container .card .details a {
+    color: #fff;
+    text-decoration: none;
 }
