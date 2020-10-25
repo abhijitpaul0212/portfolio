@@ -10,6 +10,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/customstyle.css" />
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     </head>
     <body class="is-preload">
@@ -53,41 +54,46 @@
                     </p>
                     <section>
                         <div class="row">
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+                            <div class="col-6 col-6-medium col-12-small" id="click_to_open_modal">
+                                <a class="image fit project-showcase">
+                                    <img src="images/pic01.jpg" alt="" />
+                                    <h5 class="project-title">Order Pizza</h5>
+                                </a>
                             </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic08.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic09.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
+                        </div>
+                        <div id="myModal" class="modal">
+                            <!-- The Close Button -->
+                            <span class="close">&times;</span>
+                            <div class="modal-content flex-wrapper">
+                                <div>
+                                    <h4>My first app!!</h4>
+                                    <h5>
+                                        Pretty basic right! No fancy animations or cutting edge modern UI. Yes, but hey,
+                                        this was my very first app which I created myself and this app helped me to
+                                        understand and introduced me to lot of necessary basic and core concets
+                                    </h5>
+                                    <hr />
+                                    <ul>
+                                        <li>Foundation concepts of XML, Android specific Java</li>
+                                        <li>Plan and build layout for App UI</li>
+                                        <li>Linear and Relative layout, nested layouts (views)</li>
+                                        <li>Make app interactive and process user input</li>
+                                        <li>Event handling</li>
+                                        <li>Intents</li>
+                                        <li>App localization (multi-lingual support, xliff)</li>
+                                        <li>Toast</li>
+                                        <li>Working with styles</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <img src="./images/order_pizza.JPG" alt="" />
+                                    <a
+                                        class="github-link inline-block"
+                                        href="https://github.com/Priyank-Sharma-89/OrderPizza"
+                                        target="_blank"
+                                        >Check code on github</a
+                                    >
+                                </div>
                             </div>
                         </div>
                     </section>
@@ -160,5 +166,6 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/customscript.js"></script>
     </body>
 </html>
