@@ -64,7 +64,8 @@
         flex-direction: column;
     }
 }
-#click_to_open_modal {
+#project-tile-1,
+#project-tile-2 {
     cursor: pointer;
 }
 .inline-block {
