@@ -24,3 +24,16 @@ span_2.onclick = function () {
     modal_2.style.display = 'none';
 };
 // ==========================================================================
+var modal_holder_3 = document.getElementById('project-tile-3');
+var modal_3 = document.getElementById('modal-3');
+
+modal_holder_3.onclick = function () {
+    modal_3.style.display = 'block';
+};
+
+var span_3 = document.getElementById('close-3');
+
+span_3.onclick = function () {
+    modal_3.style.display = 'none';
+};
+// ==========================================================================

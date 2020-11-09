@@ -65,8 +65,10 @@
     }
 }
 #project-tile-1,
-#project-tile-2 {
+#project-tile-2,
+#project-tile-3 {
     cursor: pointer;
+    text-align: center;
 }
 .inline-block {
     display: inline-block !important;
