@@ -37,3 +37,16 @@ span_3.onclick = function () {
     modal_3.style.display = 'none';
 };
 // ==========================================================================
+var modal_holder_4 = document.getElementById('project-tile-4');
+var modal_4 = document.getElementById('modal-4');
+
+modal_holder_4.onclick = function () {
+    modal_4.style.display = 'block';
+};
+
+var span_4 = document.getElementById('close-4');
+
+span_4.onclick = function () {
+    modal_4.style.display = 'none';
+};
+// ==========================================================================
