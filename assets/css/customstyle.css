@@ -87,3 +87,12 @@
     background: #fff;
     color: #000;
 }
+.app-category {
+    background: aquamarine;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
