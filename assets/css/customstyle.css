@@ -30,15 +30,15 @@
     padding-right: 15px;
 }
 .modal-content img {
-    max-height: 500px;
+    max-height: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .modal-content h4,
+.modal-content p,
 .modal-content h5,
 .modal-content ul li {
     color: #fff !important;
-}
-.flex-wrapper {
-    display: flex;
 }
 .close {
     position: absolute;
@@ -67,12 +67,11 @@
 #project-tile-1,
 #project-tile-2,
 #project-tile-3,
-#project-tile-4 {
+#project-tile-4,
+#project-tile-5,
+#project-tile-6 {
     cursor: pointer;
     text-align: center;
-}
-.inline-block {
-    display: inline-block !important;
 }
 .github-link {
     text-decoration: none;
@@ -82,6 +81,8 @@
     border-radius: 5px;
     cursor: pointer;
     color: #fff;
+    display: block;
+    width: fit-content;
 }
 .github-link:hover {
     background: #fff;
@@ -95,4 +96,15 @@
     font-weight: bold;
     border-radius: 15px;
     margin-bottom: 20px;
+}
+.app-information p {
+    margin-bottom: 0px !important;
+}
+.app-information hr {
+    padding: 0 !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.concepts-learned {
+    margin-top: 10px;
 }

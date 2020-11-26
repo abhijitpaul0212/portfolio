@@ -50,3 +50,29 @@ span_4.onclick = function () {
     modal_4.style.display = 'none';
 };
 // ==========================================================================
+var modal_holder_5 = document.getElementById('project-tile-5');
+var modal_5 = document.getElementById('modal-5');
+
+modal_holder_5.onclick = function () {
+    modal_5.style.display = 'block';
+};
+
+var span_5 = document.getElementById('close-5');
+
+span_5.onclick = function () {
+    modal_5.style.display = 'none';
+};
+// ==========================================================================
+var modal_holder_6 = document.getElementById('project-tile-6');
+var modal_6 = document.getElementById('modal-6');
+
+modal_holder_6.onclick = function () {
+    modal_6.style.display = 'block';
+};
+
+var span_6 = document.getElementById('close-6');
+
+span_6.onclick = function () {
+    modal_6.style.display = 'none';
+};
+// ==========================================================================

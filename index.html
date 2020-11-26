@@ -71,9 +71,17 @@
                         <div id="modal-1" class="modal">
                             <!-- The Close Button -->
                             <span id="close-1" class="close">&times;</span>
-                            <div class="modal-content flex-wrapper">
-                                <div>
-                                    <h4>My first app!!</h4>
+                            <div class="modal-content">
+                                <div class="app-information">
+                                    <h5>My first Java app!!</h5>
+                                    <p>
+                                        This app allows user to order coffee online, with options to add toppings. User
+                                        can plus or minus number of cups to order, mention his/her name. It also shows
+                                        toast message when quantity is 0 or user orders more than 100 cups at once. When
+                                        click on Order button, app redirects user to mail app, where user is shown
+                                        summary of order in email body.
+                                    </p>
+                                    <hr />
                                     <h5>
                                         Pretty basic right! No fancy animations or cutting edge modern UI. Yes, but hey,
                                         this was my very first app which I created and this app helped me to understand
@@ -81,7 +89,8 @@
                                         still working on this app and will improve it gradually like adding splash
                                         screen and revising UI elements]
                                     </h5>
-                                    <hr />
+                                </div>
+                                <div class="concepts-learned">
                                     <ul>
                                         <li>Foundation concepts of XML, Android specific Java</li>
                                         <li>Plan and build layout for App UI</li>
@@ -95,9 +104,10 @@
                                     </ul>
                                 </div>
                                 <div>
-                                    <img src="./images/order_pizza.JPG" alt="" />
+                                    <img src="./images/app_screenshots/java/order_pizza_1.JPG" alt="" />
+                                    <img src="./images/app_screenshots/java/order_pizza_2.JPG" alt="" />
                                     <a
-                                        class="github-link inline-block"
+                                        class="github-link"
                                         href="https://github.com/Priyank-Sharma-89/Android-Java-Projects/tree/main/OrderPizza/app/src/main"
                                         target="_blank"
                                         >Check code on github</a
@@ -108,19 +118,21 @@
                         <div id="modal-2" class="modal">
                             <!-- The Close Button -->
                             <span id="close-2" class="close">&times;</span>
-                            <div class="modal-content flex-wrapper">
-                                <div>
-                                    <h4>Quick News App</h4>
-                                    <h5>
-                                        App to see news from multiple sources. Made using Navigation Drawer template.
-                                        Further used webview to show news websites and webview controller to show news
-                                        within app rather than redirecting user to browser.
-                                    </h5>
+                            <div class="modal-content">
+                                <div class="app-information">
+                                    <h5>Quick News App</h5>
+                                    <p>
+                                        This app show news from multiple new sources like BBC, ZeeNews. App is made
+                                        using android studio provided navigation drawer template. To show news pages,
+                                        webview is used. Further added WebView Controller functionality to show
+                                        individual news within WebView and not redirect user to browser.
+                                    </p>
+                                    <hr />
                                 </div>
                                 <div>
-                                    <img src="./images/quicknews.JPG" alt="" />
+                                    <img src="./images/app_screenshots/java/quicknews.JPG" alt="" />
                                     <a
-                                        class="github-link inline-block"
+                                        class="github-link"
                                         href="https://github.com/Priyank-Sharma-89/Android-Java-Projects/tree/main/QuickNews/app/src/main"
                                         target="_blank"
                                         >Check code on github</a
@@ -138,12 +150,35 @@
                                     <h5 class="project-title">Cocktail App</h5>
                                 </a>
                             </div>
+                            <div class="col-4 col-6-medium col-6-small" id="project-tile-4">
+                                <a class="image fit project-showcase">
+                                    <img src="images/pic09.jpg" alt="" />
+                                    <h5 class="project-title">Dicee</h5>
+                                </a>
+                            </div>
+                            <div class="col-4 col-6-medium col-6-small" id="project-tile-5">
+                                <a class="image fit project-showcase">
+                                    <img src="images/pic09.jpg" alt="" />
+                                    <h5 class="project-title">Quiz App</h5>
+                                </a>
+                            </div>
+                            <div class="col-4 col-6-medium col-6-small" id="project-tile-6">
+                                <a class="image fit project-showcase">
+                                    <img src="images/pic09.jpg" alt="" />
+                                    <h5 class="project-title">Xylophone</h5>
+                                </a>
+                            </div>
                         </div>
                         <div id="modal-3" class="modal">
                             <!-- The Close Button -->
                             <span id="close-3" class="close">&times;</span>
-                            <div class="modal-content flex-wrapper">
-                                <div>
+                            <div class="modal-content">
+                                <div class="app-information">
+                                    <p>
+                                        This app shows information of various cocktails (data received from an api).
+                                        When user tap on any cocktail name, individual cocktail window is shown.
+                                    </p>
+                                    <hr />
                                     <h5>
                                         My first flutter app. You may call it very basic and simple app, but for me it
                                         was so cool and exciting to see this app taking shape and happening. However,
@@ -151,7 +186,8 @@
                                         concepts as a beginner which actually are used almost in every app and look
                                         daunting at first. I learned:
                                     </h5>
-                                    <hr />
+                                </div>
+                                <div class="concepts-learned">
                                     <ul>
                                         <li>How flutter treat every element as Widget</li>
                                         <li>Stateless vs Stateful widget</li>
@@ -167,14 +203,106 @@
                                             Extremely exciting and important - how to receive data from an API and use
                                             it
                                         </li>
-                                        <li>Set app icon</li>
+                                        <li>Set custom app icon</li>
                                     </ul>
                                 </div>
                                 <div>
-                                    <img src="./images/cocktailapp.JPG" alt="" />
+                                    <img src="./images/app_screenshots/flutter/cocktail_1.JPG" alt="" />
+                                    <img src="./images/app_screenshots/flutter/cocktail_2.JPG" alt="" />
                                     <a
-                                        class="github-link inline-block"
+                                        class="github-link"
                                         href="https://github.com/Priyank-Sharma-89/Flutter-Apps/tree/main/cocktail_menu"
+                                        target="_blank"
+                                        >Check code on github</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div id="modal-4" class="modal">
+                            <!-- The Close Button -->
+                            <span id="close-4" class="close">&times;</span>
+                            <div class="modal-content">
+                                <div class="app-information">
+                                    <p>
+                                        User can tap on any dice to roll it. No matter user click on which dice, both
+                                        dice roll same time. User get to know from total how much he/she got in one tap.
+                                    </p>
+                                    <hr />
+                                </div>
+                                <div class="concepts-learned">
+                                    <ul>
+                                        <li>How and when to use Expanded widget</li>
+                                        <li>Manage state of multiple elements in one click</li>
+                                        <li>Use image within flat button</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <img src="./images/app_screenshots/flutter/dicee.JPG" alt="" />
+                                    <a
+                                        class="github-link"
+                                        href="https://github.com/Priyank-Sharma-89/Flutter-Apps/tree/main/dicee"
+                                        target="_blank"
+                                        >Check code on github</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div id="modal-5" class="modal">
+                            <!-- The Close Button -->
+                            <span id="close-5" class="close">&times;</span>
+                            <div class="modal-content">
+                                <div class="app-information">
+                                    <p>
+                                        A very simple but intuitive quiz app where user is given some questions and user
+                                        has to tap on either true or false. With each tap, user can see if answer is
+                                        correct or not through dynamic right/wrong icon row at bottom and moved to next
+                                        question. After last question, user gets alert that quiz is finished and on
+                                        click, quiz is restarted.
+                                    </p>
+                                    <hr />
+                                </div>
+                                <div class="concepts-learned">
+                                    <ul>
+                                        <li>
+                                            Abstraction, modularising & organizing code (not zamming up everything in
+                                            main dart file)
+                                        </li>
+                                        <li>Using List of dynamic data type and custom made object class</li>
+                                        <li>
+                                            Importance of private data type, and how to use them through getters in
+                                            different classes
+                                        </li>
+                                        <li>Bracket notation to access elements from list</li>
+                                        <li>Adding icon widget dynamically in a List</li>
+                                        <li>Alerts and linking action to alerts</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <img src="./images/app_screenshots/flutter/quizzler.JPG" alt="" />
+                                    <img src="./images/app_screenshots/flutter/quizzler_2.JPG" alt="" />
+                                    <img src="./images/app_screenshots/flutter/quizzler_3.JPG" alt="" />
+                                    <a
+                                        class="github-link"
+                                        href="https://github.com/Priyank-Sharma-89/Flutter-Apps/tree/main/quizzler"
+                                        target="_blank"
+                                        >Check code on github</a
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div id="modal-6" class="modal">
+                            <!-- The Close Button -->
+                            <span id="close-6" class="close">&times;</span>
+                            <div class="modal-content">
+                                <div class="app-information">
+                                    <p>Play Xylophone</p>
+                                    <hr />
+                                </div>
+                                <div>
+                                    <img src="./images/app_screenshots/flutter/xylophone.JPG" alt="" />
+                                    <a
+                                        class="github-link"
+                                        href="https://github.com/Priyank-Sharma-89/Flutter-Apps/tree/main/xylophone"
                                         target="_blank"
                                         >Check code on github</a
                                     >
