@@ -64,12 +64,7 @@
         flex-direction: column;
     }
 }
-#project-tile-1,
-#project-tile-2,
-#project-tile-3,
-#project-tile-4,
-#project-tile-5,
-#project-tile-6 {
+.project-tile {
     cursor: pointer;
     text-align: center;
 }
