@@ -102,3 +102,16 @@ span_8.onclick = function () {
     modal_8.style.display = 'none';
 };
 // ==========================================================================
+var modal_holder_9 = document.getElementById('project-tile-9');
+var modal_9 = document.getElementById('modal-9');
+
+modal_holder_9.onclick = function () {
+    modal_9.style.display = 'block';
+};
+
+var span_9 = document.getElementById('close-9');
+
+span_9.onclick = function () {
+    modal_9.style.display = 'none';
+};
+// ==========================================================================
