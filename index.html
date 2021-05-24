@@ -1,522 +1,215 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <!--
-	Astral by HTML5 UP
+	Miniport by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-    <head>
-        <title>Priyank Sharma Portfolio</title>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-        <link rel="stylesheet" href="assets/css/main.css" />
-        <link rel="stylesheet" href="assets/css/customstyle.css" />
-        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    </head>
-    <body class="is-preload">
-        <!-- Wrapper-->
-        <div id="wrapper">
-            <!-- Nav -->
-            <nav id="nav">
-                <a href="#" class="icon solid fa-home"><span>Home</span></a>
-                <a href="#work" class="icon solid fa-folder"><span>Work</span></a>
-                <a href="#about" class="icon solid fa-user"><span>About</span></a>
-                <a
-                    href="https://www.linkedin.com/in/priyank-sharma-8a80889b"
-                    target="_blank"
-                    class="icon brands fa-linkedin"
-                    ><span>Linkedin</span></a
-                >
-            </nav>
+	<head>
+		<title>Priyank Sharma Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
 
-            <!-- Main -->
-            <div id="main">
-                <!-- Me -->
-                <article id="home" class="panel intro">
-                    <header>
-                        <h1>Priyank Sharma</h1>
-                        <p>Android Developer</p>
-                    </header>
-                    <a href="#work" class="jumplink pic">
-                        <span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-                        <img src="images/me.jpg" alt="" />
-                    </a>
-                </article>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Top</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#work">Work</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-                <!-- Work -->
-                <article id="work" class="panel">
-                    <header>
-                        <h2>Work</h2>
-                    </header>
-                    <p>
-                        This is the basket of apps which I have created as a part of my Android learning process. One
-                        step at a time!
-                    </p>
-                    <section>
-                        <div class="app-category">Java Apps</div>
-                        <div class="row">
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-1">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic01.jpg" alt="" />
-                                    <h5 class="project-title">Order Pizza</h5>
-                                </a>
-                            </div>
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-2">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic01.jpg" alt="" />
-                                    <h5 class="project-title">Quick News App</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <div id="modal-1" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-1" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <h5>My first Java app!!</h5>
-                                    <p>
-                                        This app allows user to order coffee online, with options to add toppings. User
-                                        can plus or minus number of cups to order, mention his/her name. It also shows
-                                        toast message when quantity is 0 or user orders more than 100 cups at once. When
-                                        click on Order button, app redirects user to mail app, where user is shown
-                                        summary of order in email body.
-                                    </p>
-                                    <hr />
-                                    <h5>
-                                        Pretty basic right! No fancy animations or cutting edge modern UI. Yes, but hey,
-                                        this was my very first app which I created and this app helped me to understand
-                                        and introduced me to lot of necessary basic and core concets [UPDATE : I am
-                                        still working on this app and will improve it gradually like adding splash
-                                        screen and revising UI elements]
-                                    </h5>
-                                </div>
-                                <div class="concepts-learned">
-                                    <ul>
-                                        <li>Foundation concepts of XML, Android specific Java</li>
-                                        <li>Plan and build layout for App UI</li>
-                                        <li>Linear and Relative layout, nested layouts (views)</li>
-                                        <li>Make app interactive and process user input</li>
-                                        <li>Event handling</li>
-                                        <li>Intents</li>
-                                        <li>App localization (multi-lingual support, xliff)</li>
-                                        <li>Toast</li>
-                                        <li>Working with styles</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/java/order_pizza_1.JPG" alt="" />
-                                    <img src="./images/app_screenshots/java/order_pizza_2.JPG" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/OrderPizza"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                        <div id="modal-2" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-2" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <h5>Quick News App</h5>
-                                    <p>
-                                        This app show news from multiple new sources like BBC, ZeeNews. App is made
-                                        using android studio provided navigation drawer template. To show news pages,
-                                        webview is used. Further added WebView Controller functionality to show
-                                        individual news within WebView and not redirect user to browser.
-                                    </p>
-                                    <hr />
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/java/quicknews.JPG" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/QuickNews"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="app-category">Flutter Apps</div>
-                        <div class="row">
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-3">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic09.jpg" alt="" />
-                                    <h5 class="project-title">Cocktail App</h5>
-                                </a>
-                            </div>
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-4">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic09.jpg" alt="" />
-                                    <h5 class="project-title">Dicee</h5>
-                                </a>
-                            </div>
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-5">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic09.jpg" alt="" />
-                                    <h5 class="project-title">Quiz App</h5>
-                                </a>
-                            </div>
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-6">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic09.jpg" alt="" />
-                                    <h5 class="project-title">Xylophone</h5>
-                                </a>
-                            </div>
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-7">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic09.jpg" alt="" />
-                                    <h5 class="project-title">BMI Calculator</h5>
-                                </a>
-                            </div>
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-8">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic09.jpg" alt="" />
-                                    <h5 class="project-title">Clima (Weather App)</h5>
-                                </a>
-                            </div>
-                            <div class="col-3 col-6-medium col-6-small project-tile" id="project-tile-9">
-                                <a class="image fit project-showcase">
-                                    <img src="images/pic09.jpg" alt="" />
-                                    <h5 class="project-title">Flash Chat</h5>
-                                </a>
-                            </div>
-                        </div>
-                        <div id="modal-3" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-3" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <p>
-                                        This app shows information of various cocktails (data received from an api).
-                                        When user tap on any cocktail name, individual cocktail window is shown.
-                                    </p>
-                                    <hr />
-                                    <h5>
-                                        My first flutter app. You may call it very basic and simple app, but for me it
-                                        was so cool and exciting to see this app taking shape and happening. However,
-                                        just like my first Java app, while creating this app, I got familiar with many
-                                        concepts as a beginner which actually are used almost in every app and look
-                                        daunting at first. I learned:
-                                    </h5>
-                                </div>
-                                <div class="concepts-learned">
-                                    <h5>Concepts learnt</h5>
-                                    <ul>
-                                        <li>How flutter treat every element as Widget</li>
-                                        <li>Stateless vs Stateful widget</li>
-                                        <li>Scaffold</li>
-                                        <li>Code modularity</li>
-                                        <li>
-                                            ListView and RecyclerView (which I found extremely difficult to understand
-                                            in Java)
-                                        </li>
-                                        <li>How to use images and fonts as assets</li>
-                                        <li>Using dependencies in pubspec file</li>
-                                        <li>
-                                            Extremely exciting and important - how to receive data from an API and use
-                                            it
-                                        </li>
-                                        <li>Set custom app icon</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/flutter/cocktail_1.JPG" alt="" />
-                                    <img src="./images/app_screenshots/flutter/cocktail_2.JPG" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/Cocktail-Menu"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                        <div id="modal-4" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-4" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <p>
-                                        User can tap on any dice to roll it. No matter user click on which dice, both
-                                        dice roll same time. User get to know from total how much he/she got in one tap.
-                                    </p>
-                                    <hr />
-                                </div>
-                                <div class="concepts-learned">
-                                    <h5>Concepts learnt</h5>
-                                    <ul>
-                                        <li>How and when to use Expanded widget</li>
-                                        <li>Manage state of multiple elements in one click</li>
-                                        <li>Use image within flat button</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/flutter/dicee.JPG" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/Dicee"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                        <div id="modal-5" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-5" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <p>
-                                        A very simple but intuitive quiz app where user is given some questions and user
-                                        has to tap on either true or false. With each tap, user can see if answer is
-                                        correct or not through dynamic right/wrong icon row at bottom and moved to next
-                                        question. After last question, user gets alert that quiz is finished and on
-                                        click, quiz is restarted.
-                                    </p>
-                                    <hr />
-                                </div>
-                                <div class="concepts-learned">
-                                    <h5>Concepts learnt</h5>
-                                    <ul>
-                                        <li>
-                                            Abstraction, modularising & organizing code (not zamming up everything in
-                                            main dart file)
-                                        </li>
-                                        <li>Using List of dynamic data type and custom made object class</li>
-                                        <li>
-                                            Importance of private data type, and how to use them through getters in
-                                            different classes
-                                        </li>
-                                        <li>Bracket notation to access elements from list</li>
-                                        <li>Adding icon widget dynamically in a List</li>
-                                        <li>Alerts and linking action to alerts</li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/flutter/quizzler.JPG" alt="" />
-                                    <img src="./images/app_screenshots/flutter/quizzler_2.JPG" alt="" />
-                                    <img src="./images/app_screenshots/flutter/quizzler_3.JPG" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/Quizzler"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                        <div id="modal-6" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-6" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <p>Play Xylophone</p>
-                                    <hr />
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/flutter/xylophone.JPG" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/Xylophone"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                        <div id="modal-7" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-7" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <p>
-                                        App to calculate BMI. User can select gender, select height through slider,
-                                        select weight and height and then click on calculate button which takes user to
-                                        another page which shows BMI information. UI is interactive and modern, with
-                                        functionality like if any one gender is tapped to select, that one gets
-                                        highlighted and other one shows inactive. Data is passed from information screen
-                                        to result screen within navigation.
-                                    </p>
-                                    <hr />
-                                    <div class="concepts-learned">
-                                        <h5>Concepts learnt</h5>
-                                        <ul>
-                                            <li>Extract widgets for reusability</li>
-                                            <li>
-                                                Build new widgets from scratch, e.g creating custom FAB from core button
-                                                class
-                                            </li>
-                                            <li>Create custom widgets, pass properties to widgets</li>
-                                            <li>Gesture detector</li>
-                                            <li>Enums</li>
-                                            <li>Passing functions as arguments</li>
-                                            <li>Use kConstants</li>
-                                            <li>
-                                                Customize theme of individual widgets contrast to default material
-                                                theme, e.g. thumb size and color of slider
-                                            </li>
-                                            <li>Multiscreen app, Routes, Route Maps, Navigation</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/flutter/bmi_1.JPG" alt="" />
-                                    <img src="./images/app_screenshots/flutter/bmi_2.JPG" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/BMI-Calc"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                        <div id="modal-8" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-8" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <p>
-                                        App to show weather details based on location. User can see weather based on
-                                        current location through gps, or manually check for any location.
-                                    </p>
-                                    <hr />
-                                    <div class="concepts-learned">
-                                        <h5>Concepts learnt</h5>
-                                        <ul>
-                                            <li>GeoLocation API, get current location</li>
-                                            <li>Permission to access location</li>
-                                            <li>Future, Async, Await</li>
-                                            <li>Null Aware operator</li>
-                                            <li>Page loading spinner</li>
-                                            <li>Passing data to state object</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/flutter/clima_1.jpg" alt="" />
-                                    <img src="./images/app_screenshots/flutter/clima_2.jpg" alt="" />
-                                    <img src="./images/app_screenshots/flutter/clima_3.jpg" alt="" />
-                                    <img src="./images/app_screenshots/flutter/clima_4.jpg" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/Clima"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                        <div id="modal-9" class="modal">
-                            <!-- The Close Button -->
-                            <span id="close-9" class="close">&times;</span>
-                            <div class="modal-content">
-                                <div class="app-information">
-                                    <p>Chatting App with Firebase integration</p>
-                                    <hr />
-                                    <div class="concepts-learned">
-                                        <h5>Concepts learnt</h5>
-                                        <ul>
-                                            <li>
-                                                Animation, Animation Controller, fully customized animations, flutter
-                                                readymade animation packages
-                                            </li>
-                                            <li>Mixins</li>
-                                            <li>Firebase</li>
-                                            <li>Register and Authenticate users with Firebase Auth</li>
-                                            <li>Save user and chat data into Cloud Firestore</li>
-                                            <li>Stream, StreamBuilder</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div>
-                                    <img src="./images/app_screenshots/flutter/flashchat.gif" alt="" />
-                                    <img src="./images/app_screenshots/flutter/flashchat_1.jpg" alt="" />
-                                    <img src="./images/app_screenshots/flutter/flashchat_2.jpg" alt="" />
-                                    <img src="./images/app_screenshots/flutter/flashchat_3.jpg" alt="" />
-                                    <a
-                                        class="github-link"
-                                        href="https://github.com/Priyank-Sharma-89/Flash-Chat"
-                                        target="_blank"
-                                        >Check code on github</a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <hr />
-                </article>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/profile_pic.jpg" alt="profile picture" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Priyank Sharma</strong>.</h1>
+							</header>
+							<p>And this is my <strong>space</strong>, a little bit about me, and lot about my work</p>
+							<a href="#about" class="button large scrolly">Learn about what I do</a>
+						</div>
+					</div>
+				</div>
+			</article>
 
-                <!-- About -->
-                <article id="about" class="panel">
-                    <header>
-                        <h2>About Me</h2>
-                    </header>
-                    <p>Will update soon...</p>
-                    <!-- <section>
-                        <div class="row">
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic08.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic09.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic10.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic11.jpg" alt="" /></a>
-                            </div>
-                            <div class="col-4 col-6-medium col-12-small">
-                                <a href="#" class="image fit"><img src="images/pic12.jpg" alt="" /></a>
-                            </div>
-                        </div>
-                    </section> -->
-                </article>
-            </div>
+		<!-- About -->
+			<article id="about" class="wrapper style2">
+				<div class="container">
+					<header>
+						<h2>Here's all the stuff I do.</h2>
+						<!-- <p>Odio turpis amet sed consequat eget posuere consequat.</p> -->
+					</header>
+					<div class="row aln-center">
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<!-- <span class="icon featured fa-comments"></span> -->
+								<img src="./images/flutter_logo.png" alt="flutter logo" width="64" height="64">
+								<h3>Flutter Development</h3>
+								<!-- <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p> -->
+							</section>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<img src="./images/android_logo.png" alt="android logo" width="64" height="64">
+								<h3>Android Development</h3>
+								<!-- <p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p> -->
+							</section>
+						</div>
+						<!-- <div class="col-4 col-6-medium col-12-small">
+							<section class="box style1">
+								<span class="icon featured fa-thumbs-up"></span>
+								<h3>Feugiat posuere</h3>
+								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
+							</section>
+						</div> -->
+					</div>
+					<footer>
+						<!-- <p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p> -->
+						<a href="#work" class="button large scrolly">See some of my recent work</a>
+					</footer>
+				</div>
+			</article>
 
-            <!-- Footer -->
-            <!-- <div id="footer">
-                <ul class="copyright">
-                    <li>&copy; Untitled.</li>
-                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                </ul>
-            </div> -->
-        </div>
+		<!-- Work -->
+			<article id="work" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some stuff I made recently.</h2>
+						<!-- <p>Proin odio consequat  sapien vestibulum consequat lorem dolore feugiat.</p> -->
+					</header>
+					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="#">Magna feugiat</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="#">Veroeros primis</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="#">Lorem ipsum</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Tempus dolore</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Feugiat aliquam</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Sed amet ornare</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+					</div>
+					<footer>
+						<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+						<a href="#contact" class="button large scrolly">Get in touch with me</a>
+					</footer>
+				</div>
+			</article>
 
-        <!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/browser.min.js"></script>
-        <script src="assets/js/breakpoints.min.js"></script>
-        <script src="assets/js/util.js"></script>
-        <script src="assets/js/main.js"></script>
-        <script src="assets/js/customscript.js"></script>
-    </body>
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>Have me make stuff for you.</h2>
+						<p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p>
+					</header>
+					<div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="col-12">
+							<hr />
+							<h3>Find me on ...</h3>
+							<ul class="social">
+								<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+								<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+								<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li> -->
+								<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+					<footer>
+						<!-- <ul id="copyright">
+							<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul> -->
+					</footer>
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
